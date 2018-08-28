@@ -20,8 +20,9 @@ public class BaseTest implements Constants {
 		driver.get(TEST_URL);
 	}
 	@AfterMethod
+	
 	public void close() {
 		driver.quit();
 	}
-	
+
 }
